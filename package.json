@@ -17,7 +17,7 @@
     "build:prod": "run-s build:routify build:viteprod",
     "build:routify": "routify run -b",
     "build:vitesandbox": "vite build --mode sandbox",
-    "build:viteprod": "vite build --mode prod --base=https://aakashgoplani.in/",
+    "build:viteprod": "vite build --mode prod --base=https://aakashgoplani.in/Svelte-Modular-Bundling/",
     "validate": "svelte-check"
   },
   "dependencies": {
