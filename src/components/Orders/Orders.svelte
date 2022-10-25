@@ -4,7 +4,7 @@
   </span>
 </div>
 
-<style>
+<style lang="scss">
   .order {
     display: flex;
     flex-direction: column;

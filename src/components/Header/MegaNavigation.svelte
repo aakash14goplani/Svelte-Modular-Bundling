@@ -26,7 +26,7 @@
   {/each}
 </ul>
 
-<style>
+<style lang="scss">
   ul {
     margin: 0;
     padding: 0;

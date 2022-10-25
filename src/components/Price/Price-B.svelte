@@ -4,7 +4,7 @@
   </span>
 </div>
 
-<style>
+<style lang="scss">
   .price__b {
     display: flex;
     flex-direction: column;

@@ -9,7 +9,7 @@
   <PriceB />
 </div>
 
-<style>
+<style lang="scss">
   .price__a {
     display: flex;
     flex-direction: column;

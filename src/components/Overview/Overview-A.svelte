@@ -9,7 +9,7 @@
   <OverviewB />
 </div>
 
-<style>
+<style lang="scss">
   .overview__a {
     display: flex;
     flex-direction: column;

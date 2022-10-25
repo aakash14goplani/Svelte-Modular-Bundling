@@ -4,7 +4,7 @@
   </span>
 </div>
 
-<style>
+<style lang="scss">
   .overview__c {
     display: flex;
     flex-direction: column;
