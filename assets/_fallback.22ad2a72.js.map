@@ -1,0 +1,1 @@
+{"version":3,"file":"_fallback.22ad2a72.js","sources":["../../src/pages/_fallback.svelte"],"sourcesContent":["<script lang=\"ts\">\n  import { goto } from '@roxi/routify';\n  import { onMount } from 'svelte';\n\n  onMount(() => $goto('/home'));\n</script>"],"names":["onMount","$goto"],"mappings":"kdAIEA,EAAO,IAAOC,EAAM,OAAO,CAAA"}
