@@ -4,7 +4,6 @@ import { resolve } from 'path';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/Svelte-Modular-Bundling/',
   build: {
     sourcemap: true,
     chunkSizeWarningLimit: 2500

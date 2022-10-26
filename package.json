@@ -17,7 +17,7 @@
     "build:prod": "run-s build:routify build:viteprod",
     "build:routify": "routify run -b",
     "build:vitesandbox": "vite build --mode sandbox",
-    "build:viteprod": "vite build --mode prod",
+    "build:viteprod": "vite build --mode prod --base=/Svelte-Modular-Bundling/",
     "validate": "svelte-check",
     "deploy": "npx gh-pages -d dist"
   },
@@ -40,5 +40,8 @@
     "sass": "^1.55.0",
     "svelte-check": "^2.2.7",
     "vite-plugin-html": "^3.2.0"
+  },
+  "resolutions": {
+    "rollup": "^3.0.0"
   }
 }
