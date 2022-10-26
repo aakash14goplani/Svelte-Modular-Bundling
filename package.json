@@ -40,8 +40,5 @@
     "sass": "^1.55.0",
     "svelte-check": "^2.2.7",
     "vite-plugin-html": "^3.2.0"
-  },
-  "resolutions": {
-    "rollup": "^3.0.0"
   }
 }
