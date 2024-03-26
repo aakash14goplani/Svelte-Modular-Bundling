@@ -15,9 +15,6 @@ export default defineConfig({
     },
     dedupe: ['@roxi/routify'],
   },
-  server: {
-    https: false,
-  },
   optimizeDeps: {
     exclude: ['@roxi/routify', 'dompurify'],
   },
