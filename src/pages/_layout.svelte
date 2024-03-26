@@ -1,42 +1,53 @@
-<script lang="ts">
-  import Footer from "$src/components/Footer/Footer.svelte";
-  import Header from "$src/components/Header/Header.svelte";
-  import UserInfoContainer from "$src/components/UserInfo/UserInfoContainer.svelte";
-  import QuickLinkContainer from "$src/components/QuickLinks/QuickLinkContainer.svelte";
-  import TwitterFeed from "$src/components/TwitterFeeds/TwitterFeed.svelte";
+<script>
+	import Header from '../components/Header.svelte';
+	import '../app.scss';
 </script>
 
-<Header />
+<div class="app">
+	<Header />
 
-<main>
-  <slot />
+	<main>
+		<slot />
+	</main>
 
-  <aside>
-    <div class="user-info">
-      <UserInfoContainer />
-    </div>
-    <div class="quick-links">
-      <QuickLinkContainer />
-    </div>
-    <div class="live-feed">
-      <TwitterFeed />
-    </div>
-  </aside>
-</main>
+	<footer>
+		<p>visit <a href="/">Home</a> page</p>
+	</footer>
+</div>
 
-<Footer />
+<style>
+	.app {
+		display: flex;
+		flex-direction: column;
+		min-height: 100vh;
+	}
 
-<style lang="scss">
-  main {
-    display: flex;
-    flex-direction: column;
-    margin: 7rem 0;
-  }
+	main {
+		flex: 1;
+		display: flex;
+		flex-direction: column;
+		padding: 1rem;
+		width: 100%;
+		max-width: 64rem;
+		margin: 0 auto;
+		box-sizing: border-box;
+	}
 
-  @media screen and (min-width: 720px) {
-    main {
-      flex-direction: row;
-      justify-content: space-between;
-    }
-  }
+	footer {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		padding: 12px;
+	}
+
+	footer a {
+		font-weight: bold;
+	}
+
+	@media (min-width: 480px) {
+		footer {
+			padding: 12px 0;
+		}
+	}
 </style>

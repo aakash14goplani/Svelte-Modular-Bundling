@@ -1,7 +1,6 @@
 [
-  "/home/index",
+  "/about/index",
   "/index",
-  "/order/index",
-  "/overview/index",
-  "/price/index"
+  "/sverdle/how-to-play/index",
+  "/sverdle/index"
 ]

@@ -1,11 +1,11 @@
 
 /**
  * @roxi/routify 2.18.16
- * File generated Wed Mar 27 2024 00:55:14 GMT+0530 (India Standard Time)
+ * File generated Wed Mar 27 2024 01:34:28 GMT+0530 (India Standard Time)
  */
 
 export const __version = "2.18.16"
-export const __timestamp = "2024-03-26T19:25:14.113Z"
+export const __timestamp = "2024-03-26T20:04:28.575Z"
 
 //buildRoutes
 import { buildClientTree } from "@roxi/routify/runtime/buildRoutes.js"
@@ -18,150 +18,234 @@ export const options = {}
 
 //tree
 export const _tree = {
+  "name": "_layout",
+  "filepath": "/_layout.svelte",
   "root": true,
+  "ownMeta": {},
+  "absolutePath": "D:/Svelte/Svelte-Modular-Bundling/src/pages/_layout.svelte",
   "children": [
     {
+      "isFile": true,
+      "isDir": false,
+      "file": "_fallback.svelte",
+      "filepath": "/_fallback.svelte",
+      "name": "_fallback",
+      "ext": "svelte",
+      "badExt": false,
+      "absolutePath": "D:/Svelte/Svelte-Modular-Bundling/src/pages/_fallback.svelte",
+      "importPath": "../src/pages/_fallback.svelte",
+      "isLayout": false,
+      "isReset": false,
+      "isIndex": false,
       "isFallback": true,
-      "path": "/_fallback",
-      "component": () => import('../src/pages/_fallback.svelte').then(m => m.default)
-    },
-    {
-      "isDir": true,
-      "children": [
-        {
-          "isIndex": true,
-          "isPage": true,
-          "meta": {
-            "$$bundleId": "_home__layout_svelte.js",
-            "recursive": true,
-            "preload": false,
-            "prerender": true
-          },
-          "path": "/home/index",
-          "id": "_home_index",
-          "component": () => import('./_home__layout_svelte.js').then(m => m._home_index)
-        }
-      ],
-      "isLayout": true,
-      "ownMeta": {
-        "bundle": true
-      },
+      "isPage": false,
+      "ownMeta": {},
       "meta": {
-        "bundle": true,
-        "$$bundleId": "_home__layout_svelte.js",
         "recursive": true,
         "preload": false,
         "prerender": true
       },
-      "path": "/home",
-      "id": "_home__layout",
-      "component": () => import('./_home__layout_svelte.js').then(m => m._home__layout)
+      "path": "/_fallback",
+      "id": "__fallback",
+      "component": () => import('../src/pages/_fallback.svelte').then(m => m.default)
     },
     {
+      "isFile": true,
+      "isDir": true,
+      "file": "_layout.svelte",
+      "filepath": "/about/_layout.svelte",
+      "name": "_layout",
+      "ext": "svelte",
+      "badExt": false,
+      "absolutePath": "D:/Svelte/Svelte-Modular-Bundling/src/pages/about/_layout.svelte",
+      "children": [
+        {
+          "isFile": true,
+          "isDir": false,
+          "file": "index.svelte",
+          "filepath": "/about/index.svelte",
+          "name": "index",
+          "ext": "svelte",
+          "badExt": false,
+          "absolutePath": "D:/Svelte/Svelte-Modular-Bundling/src/pages/about/index.svelte",
+          "importPath": "../src/pages/about/index.svelte",
+          "isLayout": false,
+          "isReset": false,
+          "isIndex": true,
+          "isFallback": false,
+          "isPage": true,
+          "ownMeta": {},
+          "meta": {
+            "recursive": true,
+            "preload": false,
+            "prerender": true
+          },
+          "path": "/about/index",
+          "id": "_about_index",
+          "component": () => import('../src/pages/about/index.svelte').then(m => m.default)
+        }
+      ],
+      "isLayout": true,
+      "isReset": false,
+      "isIndex": false,
+      "isFallback": false,
+      "isPage": false,
+      "importPath": "../src/pages/about/_layout.svelte",
+      "ownMeta": {},
+      "meta": {
+        "recursive": true,
+        "preload": false,
+        "prerender": true
+      },
+      "path": "/about",
+      "id": "_about__layout",
+      "component": () => import('../src/pages/about/_layout.svelte').then(m => m.default)
+    },
+    {
+      "isFile": true,
+      "isDir": false,
+      "file": "index.svelte",
+      "filepath": "/index.svelte",
+      "name": "index",
+      "ext": "svelte",
+      "badExt": false,
+      "absolutePath": "D:/Svelte/Svelte-Modular-Bundling/src/pages/index.svelte",
+      "importPath": "../src/pages/index.svelte",
+      "isLayout": false,
+      "isReset": false,
       "isIndex": true,
+      "isFallback": false,
       "isPage": true,
+      "ownMeta": {},
+      "meta": {
+        "recursive": true,
+        "preload": false,
+        "prerender": true
+      },
       "path": "/index",
       "id": "_index",
       "component": () => import('../src/pages/index.svelte').then(m => m.default)
     },
     {
+      "isFile": true,
       "isDir": true,
+      "file": "_layout.svelte",
+      "filepath": "/sverdle/_layout.svelte",
+      "name": "_layout",
+      "ext": "svelte",
+      "badExt": false,
+      "absolutePath": "D:/Svelte/Svelte-Modular-Bundling/src/pages/sverdle/_layout.svelte",
       "children": [
         {
-          "isIndex": true,
-          "isPage": true,
+          "isFile": true,
+          "isDir": true,
+          "file": "_layout.svelte",
+          "filepath": "/sverdle/how-to-play/_layout.svelte",
+          "name": "_layout",
+          "ext": "svelte",
+          "badExt": false,
+          "absolutePath": "D:/Svelte/Svelte-Modular-Bundling/src/pages/sverdle/how-to-play/_layout.svelte",
+          "children": [
+            {
+              "isFile": true,
+              "isDir": false,
+              "file": "index.svelte",
+              "filepath": "/sverdle/how-to-play/index.svelte",
+              "name": "index",
+              "ext": "svelte",
+              "badExt": false,
+              "absolutePath": "D:/Svelte/Svelte-Modular-Bundling/src/pages/sverdle/how-to-play/index.svelte",
+              "importPath": "../src/pages/sverdle/how-to-play/index.svelte",
+              "isLayout": false,
+              "isReset": false,
+              "isIndex": true,
+              "isFallback": false,
+              "isPage": true,
+              "ownMeta": {},
+              "meta": {
+                "recursive": true,
+                "preload": false,
+                "prerender": true
+              },
+              "path": "/sverdle/how-to-play/index",
+              "id": "_sverdle_howToPlay_index",
+              "component": () => import('../src/pages/sverdle/how-to-play/index.svelte').then(m => m.default)
+            }
+          ],
+          "isLayout": true,
+          "isReset": false,
+          "isIndex": false,
+          "isFallback": false,
+          "isPage": false,
+          "importPath": "../src/pages/sverdle/how-to-play/_layout.svelte",
+          "ownMeta": {},
           "meta": {
-            "$$bundleId": "_order__layout_svelte.js",
             "recursive": true,
             "preload": false,
             "prerender": true
           },
-          "path": "/order/index",
-          "id": "_order_index",
-          "component": () => import('./_order__layout_svelte.js').then(m => m._order_index)
-        }
-      ],
-      "isLayout": true,
-      "ownMeta": {
-        "bundle": true
-      },
-      "meta": {
-        "bundle": true,
-        "$$bundleId": "_order__layout_svelte.js",
-        "recursive": true,
-        "preload": false,
-        "prerender": true
-      },
-      "path": "/order",
-      "id": "_order__layout",
-      "component": () => import('./_order__layout_svelte.js').then(m => m._order__layout)
-    },
-    {
-      "isDir": true,
-      "children": [
+          "path": "/sverdle/how-to-play",
+          "id": "_sverdle_howToPlay__layout",
+          "component": () => import('../src/pages/sverdle/how-to-play/_layout.svelte').then(m => m.default)
+        },
         {
+          "isFile": true,
+          "isDir": false,
+          "file": "index.svelte",
+          "filepath": "/sverdle/index.svelte",
+          "name": "index",
+          "ext": "svelte",
+          "badExt": false,
+          "absolutePath": "D:/Svelte/Svelte-Modular-Bundling/src/pages/sverdle/index.svelte",
+          "importPath": "../src/pages/sverdle/index.svelte",
+          "isLayout": false,
+          "isReset": false,
           "isIndex": true,
+          "isFallback": false,
           "isPage": true,
+          "ownMeta": {},
           "meta": {
-            "$$bundleId": "_overview__layout_svelte.js",
             "recursive": true,
             "preload": false,
             "prerender": true
           },
-          "path": "/overview/index",
-          "id": "_overview_index",
-          "component": () => import('./_overview__layout_svelte.js').then(m => m._overview_index)
+          "path": "/sverdle/index",
+          "id": "_sverdle_index",
+          "component": () => import('../src/pages/sverdle/index.svelte').then(m => m.default)
         }
       ],
       "isLayout": true,
-      "ownMeta": {
-        "bundle": true
-      },
+      "isReset": false,
+      "isIndex": false,
+      "isFallback": false,
+      "isPage": false,
+      "importPath": "../src/pages/sverdle/_layout.svelte",
+      "ownMeta": {},
       "meta": {
-        "bundle": true,
-        "$$bundleId": "_overview__layout_svelte.js",
         "recursive": true,
         "preload": false,
         "prerender": true
       },
-      "path": "/overview",
-      "id": "_overview__layout",
-      "component": () => import('./_overview__layout_svelte.js').then(m => m._overview__layout)
-    },
-    {
-      "isDir": true,
-      "children": [
-        {
-          "isIndex": true,
-          "isPage": true,
-          "meta": {
-            "$$bundleId": "_price__layout_svelte.js",
-            "recursive": true,
-            "preload": false,
-            "prerender": true
-          },
-          "path": "/price/index",
-          "id": "_price_index",
-          "component": () => import('./_price__layout_svelte.js').then(m => m._price_index)
-        }
-      ],
-      "isLayout": true,
-      "ownMeta": {
-        "bundle": true
-      },
-      "meta": {
-        "bundle": true,
-        "$$bundleId": "_price__layout_svelte.js",
-        "recursive": true,
-        "preload": false,
-        "prerender": true
-      },
-      "path": "/price",
-      "id": "_price__layout",
-      "component": () => import('./_price__layout_svelte.js').then(m => m._price__layout)
+      "path": "/sverdle",
+      "id": "_sverdle__layout",
+      "component": () => import('../src/pages/sverdle/_layout.svelte').then(m => m.default)
     }
   ],
   "isLayout": true,
+  "isReset": false,
+  "isIndex": false,
+  "isFallback": false,
+  "isPage": false,
+  "isFile": true,
+  "file": "_layout.svelte",
+  "ext": "svelte",
+  "badExt": false,
+  "importPath": "../src/pages/_layout.svelte",
+  "meta": {
+    "recursive": true,
+    "preload": false,
+    "prerender": true
+  },
   "path": "/",
   "id": "__layout",
   "component": () => import('../src/pages/_layout.svelte').then(m => m.default)
